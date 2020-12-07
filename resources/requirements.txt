@@ -1,0 +1,9 @@
+pysftp
+requests
+numpy
+scipy
+matplotlib
+pandas
+statsmodels
+scikit-learn
+jupyter
