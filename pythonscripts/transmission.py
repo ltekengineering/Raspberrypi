@@ -5,7 +5,7 @@ class Email:
 
     def __init__(self,serverType):
         self.ini = self.configparser.ConfigParser()
-        self.ini.read("config.ini")
+        self.ini.read("/home/pi/resources/config.ini")
         self.serverType = serverType
 
     def sendEmail(self, From, To, Subject, Message):
