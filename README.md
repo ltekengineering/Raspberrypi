@@ -9,8 +9,8 @@ ___
   ```  
 2. Clean up
   ```console
-    pi@raspberry:~$ rm README.md
-    pi@raspberry:~$ rm LICENSE
+    pi@raspberry:~$ rm LICENSE README.md
+    pi@raspberry:~$ rm -r .git*
   ```
 3. Edit resources/config.ini
   * username = your.email.address@gmail.com _#Your email here_
