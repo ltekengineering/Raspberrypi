@@ -5,7 +5,7 @@ ___
 #### Email yourself your WAN IP address whenever it changes
 1. Clone the project
   ```console 
-    pi@raspberry:~$ git clone blah blah blah
+    pi@raspberry:~$ git clone git@github.com:thelawrencekhan/Raspberrypi.git .
   ```  
 2. Clean up
   ```console
