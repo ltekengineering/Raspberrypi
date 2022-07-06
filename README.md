@@ -13,9 +13,11 @@ ___
     pi@raspberry:~$ rm -rf .git*
   ```
 3. Edit resources/config.ini
-  * username = your.email.address@gmail.com _#Your email here_
-  * password = yvrenpwaqoqjwfql _#change this to app password generated at accounts.google.com_
+  * username = your.email.address@gmail.com 
+  * password = _change this to app password generated at accounts.google.com_
 4. Schedule this in crontab
   ```console
     pi@raspberry:~$ crontab -e
-  ``` 
+    #add the following to run the script every hour
+    0 */1 * * * python /home/pi/Raspberrypi/pythonscripts/ipupdate.py >/dev/null 2>&1
+  ```
