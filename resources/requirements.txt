@@ -2,8 +2,8 @@ pysftp
 requests
 numpy
 scipy
+statsmodels
 matplotlib
 pandas
-statsmodels
-scikit-learn
+#scikit-learn
 jupyter
